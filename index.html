@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joke Fetcher</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      background: #f4f4f4;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-top: 15px;
+      cursor: pointer;
+      border: none;
+      border-radius: 8px;
+      background: #4caf50;
+      color: white;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #45a049;
+    }
+    #joke {
+      margin-top: 20px;
+      font-size: 18px;
+      text-align: center;
+      max-width: 400px;
+    }
+  </style>
+</head>
+<body>
+  <h1> Random Joke Generator 😂 </h1>
+  <button onclick="getJoke()">Get a Joke</button>
+  <p id="joke">Click the button to get a joke!</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
